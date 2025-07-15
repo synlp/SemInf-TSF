@@ -133,7 +133,7 @@ if __name__ == '__main__':
     print('Args in experiment:')
     print(args)
 
-    swanlab.login(api_key="L212bDNNAv5lbvTBzAIF7")
+    swanlab.login(api_key="")
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
     Exp = Exp_Main
